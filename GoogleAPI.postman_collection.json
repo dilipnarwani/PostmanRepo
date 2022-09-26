@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "3703e77b-4d49-44c7-838e-49b356ca6175",
+		"name": "GoogleAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22878123"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com/?q=Dilip Narwani",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Dilip Narwani"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
